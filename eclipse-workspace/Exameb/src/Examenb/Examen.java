@@ -21,7 +21,8 @@ public class Examen {
 			double baseTriangulo = sc.nextDouble();
 			System.out.print("Ingrese la altura del triángulo: ");
 			double alturaTriangulo = sc.nextDouble();
-
+			double areatringulo= 0.5 * baseTriangulo * alturaTriangulo;
+			System.out.println(areatringulo);
 			break;
 		case 2:
 			System.out.print("Ingrese el radio del círculo: ");
