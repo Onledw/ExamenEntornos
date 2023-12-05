@@ -29,13 +29,14 @@ public class Examen {
 			double radioCirculo = sc.nextDouble();
 			double areaCirculo=Math.PI * Math.pow(radioCirculo, 2);
 			System.out.println(areaCirculo);
-
 			break;
 		case 3:
 			System.out.print("Ingrese el radio de la base del cono: ");
 			double radioCono = sc.nextDouble();
 			System.out.print("Ingrese la altura del cono: ");
 			double alturaCono = sc.nextDouble();
+			double areaCono=Math.PI * radioCono * (radioCono + Math.sqrt(Math.pow(alturaCono, 2) + Math.pow(radioCono, 2)));
+			System.out.println(areaCono);
 			break;
 		default:
 		System.out.println("Opción no válida. Inténtelo de nuevo.");
