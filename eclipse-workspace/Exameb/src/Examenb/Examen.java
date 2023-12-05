@@ -27,6 +27,8 @@ public class Examen {
 		case 2:
 			System.out.print("Ingrese el radio del círculo: ");
 			double radioCirculo = sc.nextDouble();
+			double areaCirculo=Math.PI * Math.pow(radioCirculo, 2);
+			System.out.println(areaCirculo);
 
 			break;
 		case 3:
