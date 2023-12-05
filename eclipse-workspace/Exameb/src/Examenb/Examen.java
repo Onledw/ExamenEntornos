@@ -5,14 +5,15 @@ import java.util.Scanner;
 public class Examen {
 	public static void main (String[]args) {
 		Scanner sc = new Scanner(System.in);
-
+	
 		int opcion;
+		do {
 		System.out.println("Menú de opciones:");
 		System.out.println("1. Área triángulo");
 		System.out.println("2. Área círculo");
 		System.out.println("3. Área del cono");
 		System.out.print("Seleccione una opción: ");
-
+		
 		opcion = sc.nextInt();
 
 		switch (opcion) {
@@ -41,6 +42,7 @@ public class Examen {
 		default:
 		System.out.println("Opción no válida. Inténtelo de nuevo.");
 		}
+		}while(opcion!=4);
  }
 
 }
